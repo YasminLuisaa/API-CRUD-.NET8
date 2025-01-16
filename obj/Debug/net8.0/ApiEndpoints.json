@@ -1,0 +1,89 @@
+[
+  {
+    "ContainingType": "Person.Routes.PersonRoute\u002B\u003C\u003Ec",
+    "Method": "\u003CPersonRoutes\u003Eb__0_0",
+    "RelativePath": "person/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Person.Models.PersonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Person.Routes.PersonRoute\u002B\u003C\u003Ec",
+    "Method": "\u003CPersonRoutes\u003Eb__0_1",
+    "RelativePath": "person/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Person.Routes.PersonRoute\u002B\u003C\u003Ec",
+    "Method": "\u003CPersonRoutes\u003Eb__0_2",
+    "RelativePath": "person/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "Person.Models.PersonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Person.Routes.PersonRoute\u002B\u003C\u003Ec",
+    "Method": "\u003CPersonRoutes\u003Eb__0_3",
+    "RelativePath": "person/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
